@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import ColorPicker from './components/ColorPicker'
 
-const App = () => {
-  return <HelloWorld />
+class App extends Component {
+  render() {
+    return <ColorPicker />
+  }
 }
 
 export default App
